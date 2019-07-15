@@ -30,7 +30,7 @@ print_losses=0;
 %%%%%%%%%%%%%%%%%%%%%%% Optical index definition %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% real index / imag index / thickness µm / doping cm-3 / eff mass / Drude time ps
+% real index / imag index / thickness Âµm / doping cm-3 / eff mass / Drude time ps
 
 M=[
 
@@ -142,7 +142,7 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-X0fig=-3500; Y0fig=100;
+X0fig=10; Y0fig=10;
 Wfig=1200;Hfig=800;
 
 figure('Name','Electrical Field','position',[X0fig Y0fig Wfig Hfig])
