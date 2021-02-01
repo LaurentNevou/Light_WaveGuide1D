@@ -119,7 +119,7 @@ end
 
 if TM==1
     %[Ey,neffTM,alphaTM]=TM_solve_f(y,eps,lambda,nmodes,neff_min,neff_max); 
-    % => solves the correct equation but is umerically unstable when diff(eps) is high
+    % => solves the correct equation but is numerically unstable when diff(eps) is high
     [Ey,neffTM,alphaTM]=TM_solve_f2(y,eps,lambda,nmodes,neff_min,neff_max);
     % => solves a slightly different equation (I am not sure how correct it is...) but very stable numerically
     n2=length(neffTM);
