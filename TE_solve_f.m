@@ -18,7 +18,7 @@ DY2=(-2)*diag(AA) + diag(BB,1) + diag(BB,-1);
 
 H = DY2/dy^2 + diag(eps) * k0^2;
 
-H=sparse(H);
+%H=sparse(H);
 %[Ex,Beta] = eigs(H,nmodes,'LR');
 [Ex,Beta] = eig(H);
 
