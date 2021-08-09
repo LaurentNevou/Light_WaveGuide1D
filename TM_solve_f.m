@@ -44,7 +44,7 @@ H = H0 + diag(eps)    *  diag(  DY1*(1./(eps(:))) ) * DY1  /dy^2 ;
 %H = H0 -   diag(  DY1*log(eps(:)) )        * DY1  /dy^2 ;
 
 
-H=sparse(H);
+%H=sparse(H);
 %[Hx,Beta] = eigs(H,nmodes,'LR');
 [Hx,Beta] = eig(H);
 Beta = diag(Beta);
