@@ -57,7 +57,7 @@ H = diag(eps(:)) * DY2 + diag(eps(:)) * k0^2;
 %%%%%%%%%%%%%%%%%%%% Building and solving of the Hamiltonien %%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-H=sparse(H);
+%H=sparse(H);
 %[Hx,Beta] = eigs(H,nmodes,'LR');
 [Hx,Beta] = eig(H);
 Beta = diag(Beta);
